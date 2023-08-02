@@ -13,4 +13,4 @@ For this project I was interested in conducting exploratory data analysis using 
  - Insighs on the salaries of developers, considering their demographics 
  - Exploring the potential to build ML models to try and assess a developers salary based on the data
 
-I wanted the opportunity to explore the data and communicate my findings via a blog post on Medium in what is hopefully an engaging post which gives the reader insight into the questions posed. 
+I wanted the opportunity to explore the data and communicate my findings via a [blog post on Medium](https://medium.com/@Faisal_Alageel/how-much-do-developers-earn-a-year-a5fd0d192f79) in what is hopefully an engaging post which gives the reader insight into the questions posed. 
