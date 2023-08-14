@@ -57,22 +57,22 @@ Follow these steps in the main project directory to configure your database and 
 * [appen](https://appen.com/) for furnishing the dataset used to train our model.
 
 ## Screenshots
-1. The main page displays an overview of the training dataset and the distribution of message categories.
+1. The main page displays an overview of the training dataset and the distribution of message categories. <br/>
 ![image]()
 
-2. Input a message and then click the 'Classify Message' button.
+2. Input a message and then click the 'Classify Message' button.<br/>
 ![image]()
 
-3. Upon clicking 'Classify Message', the category(ies) to which the message has been classified will be displayed, highlighted in green.
+3. Upon clicking 'Classify Message', the category(ies) to which the message has been classified will be displayed, highlighted in green.<br/>
 ![image]()
 
-4. Execute the `process_data.py` script to initiate the ETL pipeline.
+4. Execute the `process_data.py` script to initiate the ETL pipeline.<br/>
 ![image]()
 
-5. Execute the `train_classifier.py` script to trigger the ML pipeline.
+5. Execute the `train_classifier.py` script to trigger the ML pipeline.<br/>
 ![image]()
 ![image]()
 ![image]()
 
-6. Navigate to the app's directory and execute the `run.py` script to launch the web application.
+6. Navigate to the app's directory and execute the `run.py` script to launch the web application.<br/>
 ![image]()
