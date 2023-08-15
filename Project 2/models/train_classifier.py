@@ -1,36 +1,34 @@
 import sys
 import pandas as pd
-import os
 import re
 import pickle
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import warnings
-warnings.filterwarnings("ignore")
-
-nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
-
 from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV, train_test_split
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.ensemble import AdaBoostClassifier
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.multioutput import MultiOutputClassifier
-from sklearn.neural_network import MLPRegressor
 from  sklearn.linear_model import LogisticRegression as logestic_regression
-from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer,TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import sklearn.svm  as svm
 from sqlalchemy import create_engine
-from gensim.models import Word2Vec
 from sklearn.base import BaseEstimator, TransformerMixin
 from sentence_transformers import SentenceTransformer
 import torch
 
+warnings.filterwarnings("ignore")
+nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
+
+
 print("Available GPUs: ", torch.cuda.is_available())
 
 
-
+# i implemented a transformer model in this class to extact sentence embeddings and
+# it can be used with sklearn piplelines smoothly 
 class get_text_embeddings(BaseEstimator, TransformerMixin):
     def __init__(self, transformer_model):
         """
@@ -186,10 +184,6 @@ def main():
         print(f'Loading data...\n    DATABASE: {database_filepath}')
         X, Y, category_names = load_data(database_filepath)
         
-      #  X= X.sample(10000)
-      #  Y=Y.sample(10000)
-        category_names = Y.columns
-
 
         X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
         
