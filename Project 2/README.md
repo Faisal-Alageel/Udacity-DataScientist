@@ -32,7 +32,12 @@ Directory: templates - Contains essential web assets (go.html & master.html) nec
 
 
 ## Installation
-
+- pandas : Data manipulation and analysis library.
+- nltk: Natural Language Toolkit for NLP-related tasks.
+- sklearn (scikit-learn): Machine learning library for various algorithms and tools.
+- sqlalchemy: SQL toolkit and Object-Relational Mapping (ORM) library.
+- sentence_transformers: Library for transforming sentences into numerical representations.
+- torch: PyTorch, a deep learning framework.
 
 
 ## Instructions
