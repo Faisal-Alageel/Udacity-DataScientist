@@ -14,6 +14,9 @@ In this project, the pre-annotated messages related to disasters will serve as t
 
 This initiative encompasses a web-based application through which disaster response personnel can input received messages and obtain classification outcomes.
 
+Disclaimer: This project is about building a proper ml pipleline using Sklearn mainly, and model performance such as (accuarcy) isnt considered, 
+            to acheive highest accuracy for classification, one can use deep learning (RNNs/Transformers) 
+
 ## File Descriptions
 ### Folder: app
 **run.py** is a Python script designed to initiate the web application.<br/>
