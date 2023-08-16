@@ -51,8 +51,8 @@ Follow these steps in the main project directory to configure your database and 
 2. Subsequently, execute the command to establish the ML pipeline, which includes training the classifier and saving it:
     `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-3. To launch the web application, navigate to the app's directory and run the following command:
-    `python run.py`
+3. To launch the web application, run the following command:
+    `python app/run.py`
 
 4. Open your web browser and visit http://0.0.0.0:3001/ to access the web app.
 
