@@ -14,7 +14,6 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.multioutput import MultiOutputClassifier
 from  sklearn.linear_model import LogisticRegression as logestic_regression
 from sklearn.feature_extraction.text import TfidfVectorizer
-import sklearn.svm  as svm
 from sqlalchemy import create_engine
 from sklearn.base import BaseEstimator, TransformerMixin
 from sentence_transformers import SentenceTransformer
