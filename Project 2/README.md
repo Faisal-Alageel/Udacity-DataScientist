@@ -63,23 +63,25 @@ Follow these steps in the main project directory to configure your database and 
 
 ## Screenshots
 1. Execute the `process_data.py` script to initiate the ETL pipeline.<br/>
-![image]()
+    you can use `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
+![image](screenshots/1.JPG)
 
 2. Execute the `train_classifier.py` script to trigger the ML pipeline.<br/>
-![image]()
-![image]()
-![image]()
+    you can use `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
+![image](screenshots/2.JPG)
+![image](screenshots/3.JPG)
+![image](screenshots/4.JPG)
 
 3. Navigate to the app's directory and execute the `run.py` script to launch the web application.<br/>
-![image]()
+![image](screenshots/5.JPG)
 
 4. The main page displays an overview of the training dataset and the distribution of message categories. <br/>
-![image]()
+![image](screenshots/6.JPG)
 
 5. Input a message and then click the 'Classify Message' button.<br/>
-![image]()
+![image](screenshots/7.JPG)
 
 6. Upon clicking 'Classify Message', the category(ies) to which the message has been classified will be displayed, highlighted in green.<br/>
-![image]()
+![image](screenshots/8.JPG)
 
 
