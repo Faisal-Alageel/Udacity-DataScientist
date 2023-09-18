@@ -23,11 +23,11 @@ Business Insights: We provide actionable insights based on the model's findings.
 ## Installation and Dependencies
 To run the Sparkify Capstone Project and utilize the code effectively, you'll need to set up an appropriate Python environment. We recommend using the Anaconda distribution of Python, which simplifies the management of packages and environments.
 
-- the code was developed using Python 3. 
-- pyspark: The PySpark library for working with Apache Spark, used here for data processing pipelines and ML training.
-- pandas: A popular data manipulation and analysis library, used here for visualization purposes only.
-- seaborn and matplotlib: Libraries for data visualization.
-- scikit-learn: A powerful library for machine learning and model development, used to evaluate spark models easily.
+- the code was developed using `Python 3`. 
+- `pyspark`: The PySpark library for working with Apache Spark, used here for data processing pipelines and ML training.
+- `pandas`: A popular data manipulation and analysis library, used here for visualization purposes only.
+- `seaborn and matplotlib`: Libraries for data visualization.
+- `scikit-learn`: A powerful library for machine learning and model development, used to evaluate spark models easily.
 
 ## File Descriptions
 - `Sparkify.ipynb`: Exploratory data analysis, data preprocessing, and the initial development of a pilot machine learning model.
