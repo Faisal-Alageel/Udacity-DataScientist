@@ -39,7 +39,7 @@ To run the Sparkify Capstone Project and utilize the code effectively, you'll ne
 - `mini_sparkify_event_data.json`: subset of user activity data. (not uploaded due to data quota limit)
 
 ## Results
-The findings and outcomes of this project are discussed and showcased in detail in this [blog post](blog_link).
+The findings and outcomes of this project are discussed and showcased in detail in this [blog post](https://medium.com/@Faisal_Alageel/analyzing-churn-at-sparkify-using-pyspark-6f7e3d4dc996).
 
 It's important to note that while the model performs reasonably well, it's not flawless. While it may not achieve perfection, it effectively identifies users with a higher likelihood of churning. It's worth mentioning that one constraint I encountered was the inability to run the model on the entire dataset due to AWS tier limitations.
 
